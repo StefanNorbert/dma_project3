@@ -1,0 +1,35 @@
+/* border box fix */
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1em;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    /*background-color: #fff;*/
+    background-color: #906d6d;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 40rem;
+    height: 40rem;
+    background-color: #BBADA0;
+}
+
+.elements {
+    width: 9rem;
+    height: 9rem;
+    background-color: #CDC1B4;
+    color: #fff;
+    line-height: 9rem;
+    font-size: 4rem;
+}
